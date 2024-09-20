@@ -1,10 +1,11 @@
 <?php
 
-namespace App\Controllers;
+namespace App\Controllers\Home;
+use App\Controllers\BaseController;
 use DateTime;
 use Exception;
 
-class Home extends BaseController
+class HomeController extends BaseController
 {
     public function initialPageLoading()
     {
